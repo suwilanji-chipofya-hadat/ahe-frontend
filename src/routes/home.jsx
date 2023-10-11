@@ -126,9 +126,6 @@ export default function Home() {
 			</Card>
 			</div>
 		</div>
-		<div className="bg-white p-2" id="contact" ref={contact}>
-			<Contact/>
-		</div>
 		<div className="bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 bg-[url('/bg-1.jpg')] flex flex-col items-center bg-blur-sm" ref={consultation}>
 			<div className="w-full h-full bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 text-black font-bold p-10">
 			<h1 className="text-2xl text-white text-center">FREE CONSULTATION WITH EXCEPTIONAL QUALITY</h1>
@@ -140,6 +137,9 @@ export default function Home() {
 		</div>
 		<div className="min-h-[200px]" id="portfolio" ref={portfolio}>
 			<HorizontalGallery/>
+		</div>
+		<div className="bg-white p-2" id="contact" ref={contact}>
+			<Contact/>
 		</div>
 		</div>
 	)
