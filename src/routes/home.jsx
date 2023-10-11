@@ -54,7 +54,7 @@ export default function Home() {
 		</div>
 		<div className="flex flex-col py-2 space-y-4 md:flex-row md:space-y-0 md:space-x-3">
 			<div className="flex flex-col text-center items-center">
-					<h1 className="font-bold text-2xl">Why Choose Angel Heartly Enterprise</h1>
+					<h1 className="font-bold text-xl sm:text-2xl">Why Choose Angel Heartly Enterprise</h1>
 					<div className="p-2 space-y-4 md:space-y-0 md:flex md:space-x-3">
 						<Card className="flex flex-col text-center shadow-sm">
 							<h1 className="font-bold text-2xl">Affordability</h1>
