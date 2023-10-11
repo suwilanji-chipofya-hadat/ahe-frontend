@@ -52,10 +52,9 @@ export default function Contact() {
         id="firstname"
         placeholder="First Name"
         required
-        name="firstName"
         rightIcon={BsPersonCircle}
         type="text"
-        name="firstname"
+        name="firstName"
         value={formData.firstName}
         onChange={handleChange}
       />
@@ -66,7 +65,6 @@ export default function Contact() {
         required
         rightIcon={BsPersonCircle}
         type="text"
-        name="lastname"
         value={formData.lastName}
         onChange={handleChange}
       />
