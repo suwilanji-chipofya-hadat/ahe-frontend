@@ -24,7 +24,7 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/sendEmail', {
+      const response = await fetch('https://angel-heartly-ent-server.vercel.app/api/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ export default function Contact() {
         rightIcon={BsPersonCircle}
         type="text"
         name="firstname"
-        value={formData.first_name}
+        value={formData.firstName}
         onChange={handleChange}
       />
       <TextInput
@@ -67,7 +67,7 @@ export default function Contact() {
         rightIcon={BsPersonCircle}
         type="text"
         name="lastname"
-        value={formData.last_name}
+        value={formData.lastName}
         onChange={handleChange}
       />
       </div>
