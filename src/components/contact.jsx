@@ -24,7 +24,7 @@ export default function Contact() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://angel-heartly-ent-server.vercel.app/api/sendEmail', {
+      const response = await fetch('https://angel-heartly-ent-server-blue.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
