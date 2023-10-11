@@ -49,7 +49,7 @@ export default function Home() {
 			</div>
 			<div className="flex space-x-5">
 				<Button className="bg-orange-500 font-bold"><a href="#contact" className="">CONTACT US</a></Button>
-				<Button className="font-bold">OUR SERVICES</Button>
+				<Button className="font-bold"><a href="#services">OUR SERVICES</a></Button>
 			</div>
 		</div>
 		<div className="flex flex-col py-2 space-y-4 md:flex-row md:space-y-0 md:space-x-3">
