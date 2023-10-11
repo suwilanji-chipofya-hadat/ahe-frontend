@@ -1,5 +1,3 @@
-'use client';
-
 import { Card, Label, Textarea, TextInput, Button } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi';
 import { BsPersonCircle } from 'react-icons/bs'
@@ -16,7 +14,10 @@ export default function Contact() {
   });
    const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData((prevFormData) => ({
+    ...prevFormData,
+    [name]: value,
+  }));
   };
 
   const handleSubmit = async (e) => {
