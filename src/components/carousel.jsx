@@ -11,7 +11,7 @@ export default function HorizontalGallery() {
           <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-2">
           {imageFiles.map((filename, index) => (
                       <img
-                        src={`https://cdn.statically.io/gh/suwilanji-chipofya-hadat/ahte-static/main/i${filename}`}
+                        src={`https://cdn.statically.io/gh/suwilanji-chipofya-hadat/ahte-static/main/${filename}`}
                         alt="Portfoli Work"
                         className="w-full object-cover h-full rounded-md border border-black"
                       />
