@@ -20,22 +20,22 @@ export default function HorizontalGallery() {
         ) : (
           <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-2">
             <img
-              src={`http://localhost:3001/${imageFiles[0]}`}
+              src={`https://cdn.statically.io/gh/suwilanji-chipofya-hadat/ahte-static/main/${imageFiles[0]}`}
               alt="Portfoli Work"
               className="w-full object-cover h-full rounded-md"
             />
           <img
-              src={`http://localhost:3001/${imageFiles[1]}`}
+              src={`https://cdn.statically.io/gh/suwilanji-chipofya-hadat/ahte-static/main/${imageFiles[1]}`}
               alt="Portfoli Work"
               className="w-full object-cover h-full rounded-md"
             />
           <img
-              src={`http://localhost:3001/${imageFiles[2]}`}
+              src={`https://cdn.statically.io/gh/suwilanji-chipofya-hadat/ahte-static/main/${imageFiles[2]}`}
               alt="Portfoli Work"
               className="w-full object-cover h-full rounded-md"
             />
           <img
-              src={`http://localhost:3001/${imageFiles[3]}`}
+              src={`https://cdn.statically.io/gh/suwilanji-chipofya-hadat/ahte-static/main/${imageFiles[3]}`}
               alt="Portfoli Work"
               className="w-full object-cover h-full rounded-md"
             />
