@@ -51,6 +51,7 @@ export default function Contact() {
         id="firstname"
         placeholder="First Name"
         required
+        name="first_name"
         rightIcon={BsPersonCircle}
         type="text"
         name="firstname"
@@ -59,6 +60,7 @@ export default function Contact() {
       />
       <TextInput
         id="lastname"
+        name="last_name"
         placeholder="Last Name"
         required
         rightIcon={BsPersonCircle}
@@ -72,6 +74,7 @@ export default function Contact() {
       <TextInput
         id="email"
         placeholder="Email"
+        name="email"
         required
         rightIcon={HiMail}
         type="email"
@@ -83,6 +86,7 @@ export default function Contact() {
         placeholder="Phone Number"
         required
         rightIcon={HiMail}
+        name="phone"
         type="text"
         value={formData.phone}
         onChange={handleChange}
@@ -92,6 +96,7 @@ export default function Contact() {
       <Textarea
         id="address"
         placeholder="Address"
+        name="address"
         required
         rows={4}
         value={formData.address}
@@ -99,6 +104,7 @@ export default function Contact() {
       />
       <Textarea
         id="message"
+        name="message"
         placeholder="Type your message here"
         required
         rows={4}
