@@ -13,7 +13,7 @@ export default function HorizontalGallery() {
                       <img
                         src={`https://cdn.statically.io/gh/suwilanji-chipofya-hadat/ahte-static/main/${filename}`}
                         alt="Portfoli Work"
-                        className="w-full object-cover h-full rounded-md border border-black"
+                        className="w-full object-cover h-full rounded-md border border-black min-h-[100px]"
                       />
                   ))}
           </div>
