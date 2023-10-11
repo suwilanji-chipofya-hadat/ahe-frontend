@@ -5,7 +5,7 @@ export default function HorizontalGallery() {
   const imageFiles = ['WhatsAppImage2023-10-09at2.00.43PM.jpeg', 'WhatsAppImage2023-10-09at2.00.44PM(1).jpeg', 'WhatsAppImage2023-10-09at2.00.44PM.jpeg', 'WhatsAppImage2023-10-09at2.00.45PM(1).jpeg', 'WhatsAppImage2023-10-09at2.00.45PM(2).jpeg', 'WhatsAppImage2023-10-09at2.00.45PM.jpeg', 'WhatsAppImage2023-10-09at2.00.46PM.jpeg', 'WhatsAppImage2023-10-09at2.10.31PM(1).jpeg', 'WhatsAppImage2023-10-09at2.10.31PM.jpeg', 'WhatsAppImage2023-10-09at2.10.32PM(1).jpeg', 'WhatsAppImage2023-10-09at2.10.32PM(2).jpeg', 'WhatsAppImage2023-10-09at2.10.32PM(3).jpeg', 'WhatsAppImage2023-10-09at2.10.32PM(4).jpeg', 'WhatsAppImage2023-10-09at2.10.32PM(5).jpeg', 'WhatsAppImage2023-10-09at2.10.32PM.jpeg', 'WhatsAppImage2023-10-09at2.10.33PM(1).jpeg', 'WhatsAppImage2023-10-09at2.10.33PM.jpeg', 'WhatsAppImage2023-10-09at2.10.58PM(1).jpeg', 'WhatsAppImage2023-10-09at2.10.58PM.jpeg', 'WhatsAppImage2023-10-09at2.11.26PM(1).jpeg', 'WhatsAppImage2023-10-09at2.11.26PM.jpeg', 'WhatsAppImage2023-10-09at2.15.18PM(1).jpeg', 'WhatsAppImage2023-10-09at2.15.18PM(2).jpeg', 'WhatsAppImage2023-10-09at2.15.18PM(3).jpeg', 'WhatsAppImage2023-10-09at2.15.18PM.jpeg', 'WhatsAppImage2023-10-09at2.15.19PM(1).jpeg', 'WhatsAppImage2023-10-09at2.15.19PM(2).jpeg', 'WhatsAppImage2023-10-09at2.15.19PM(3).jpeg', 'WhatsAppImage2023-10-09at2.15.19PM.jpeg']
   const [fullGallery, setFullGallery] = useState(false)
   return (
-    <div className="flex flex-col items-center space-y-4">
+    <div className="">
       {
         fullGallery ? (
           <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-2">
