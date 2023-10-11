@@ -83,7 +83,7 @@ export default function Home() {
 		<div className="text-center mx-autobg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-[url('/bg-4.webp')] flex flex-col justify-center items-center p-10 space-y-6 bg-blur">
 			<h1 className="text-2xl font-bold">ABOUT US</h1>
 			<div className="">
-				<p className="text-md font-semibold" style={{fontFamily: "cursive"}}>At Angel Heartly Enterprise, we are more than just builders; we are creators of spaces that inspire and elevate living experiences. With a commitment to excellence and an unwavering passion for craftsmanship, we have become a trusted name in the construction and interior design industry.</p>
+				<p className="text-md font-semibold">At Angel Heartly Enterprise, we are more than just builders; we are creators of spaces that inspire and elevate living experiences. With a commitment to excellence and an unwavering passion for craftsmanship, we have become a trusted name in the construction and interior design industry.</p>
 			</div>
 		</div>
 		</div>
