@@ -5,8 +5,8 @@ import React, { useState } from 'react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    first_name: '',
-    last_name: '',
+    firstName: '',
+    lastName: '',
     email: '',
     phone: '',
     address: '',
@@ -52,7 +52,7 @@ export default function Contact() {
         id="firstname"
         placeholder="First Name"
         required
-        name="first_name"
+        name="firstName"
         rightIcon={BsPersonCircle}
         type="text"
         name="firstname"
@@ -61,7 +61,7 @@ export default function Contact() {
       />
       <TextInput
         id="lastname"
-        name="last_name"
+        name="lastName"
         placeholder="Last Name"
         required
         rightIcon={BsPersonCircle}
