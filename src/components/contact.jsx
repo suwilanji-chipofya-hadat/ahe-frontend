@@ -47,7 +47,7 @@ export default function Contact() {
       id="textarea"
     >
       <h1 className="text-2xl font-bold">CONTACT US</h1>
-      <div className="space-y-4 sm:items-center sm:justify-between sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-3">
+      <div className="space-y-4 sm:items-center sm:justify-between sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-3 pb-5">
       <TextInput
         id="firstname"
         placeholder="First Name"
@@ -69,7 +69,7 @@ export default function Contact() {
         onChange={handleChange}
       />
       </div>
-      <div className="space-y-4 sm:flex sm:items-center sm:justify-between sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-3">
+      <div className="space-y-4 sm:flex sm:items-center sm:justify-between sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-3 pb-5">
       <TextInput
         id="email"
         placeholder="Email"
@@ -91,7 +91,7 @@ export default function Contact() {
         onChange={handleChange}
       />
       </div>
-      <div className="space-y-4">
+      <div className="space-y-4 pb-5">
       <Textarea
         id="address"
         placeholder="Address"
