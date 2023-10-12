@@ -146,6 +146,9 @@ export default function Home() {
 		<div className="bg-white p-2" id="contact" ref={contact}>
 			<Contact/>
 		</div>
+		<div>
+		<p className="font-semibold">Copyright &copy; HADAT HQ 2023</p>
+		</div>
 		</div>
 	)
 }
