@@ -53,6 +53,9 @@ export default function Home() {
 			</div>
 		</div>
 		<div className="flex flex-col py-2 space-y-4 md:flex-row md:space-y-0 md:space-x-3">
+			<div className="min-h-[200px]" id="portfolio" ref={portfolio}>
+			<HorizontalGallery/>
+		</div>
 			<div className="flex flex-col text-center items-center">
 					<h1 className="font-bold text-xl sm:text-2xl">Why Choose Angel Heartly Enterprise</h1>
 					<div className="p-2 space-y-4 md:space-y-0 md:flex md:space-x-3">
@@ -135,9 +138,7 @@ export default function Home() {
 			</div>
 			</div>
 		</div>
-		<div className="min-h-[200px]" id="portfolio" ref={portfolio}>
-			<HorizontalGallery/>
-		</div>
+		
 		<div className="bg-white p-2" id="contact" ref={contact}>
 			<Contact/>
 		</div>
