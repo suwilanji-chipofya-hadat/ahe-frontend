@@ -41,6 +41,7 @@ export default function Home() {
 	return (
 		<div className="h-screen overflow-y-scroll scrollbar-hide pb-[100px]">
 		<div className="bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-[url('/bg-4.webp')] flex flex-col justify-center items-center p-10 space-y-6 bg-blur">
+			<div className="w-full h-full bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 text-black font-bold p-10">
 			<div className="" id="top" ref={top}>
 				<p class="text-4xl font-bold text-black">Building Excellence, Delivering Quality</p>
 			</div>
@@ -50,6 +51,7 @@ export default function Home() {
 			<div className="flex space-x-5">
 				<Button className="bg-orange-500 font-bold"><a href="#contact" className="">CONTACT US</a></Button>
 				<Button className="font-bold"><a href="#services">OUR SERVICES</a></Button>
+			</div>
 			</div>
 		</div>
 		<div className="flex flex-col py-2 space-y-4 md:flex-row md:space-y-0 md:space-x-3">
