@@ -12,6 +12,9 @@ export default function UINavbar() {
       rounded
       className="bg-transparent"
     >
+      <div class="border-b border-gray-400">
+        <p class="">Visit <a href="https://hadat-hq.vercel.app" class="border-b border-black font-bold">Hadat HQ</a> For web development services</p>
+      </div>
       <Navbar.Brand href="/">
         <img src="/logo.png" alt="" className="w-[70px]"/>
       </Navbar.Brand>
