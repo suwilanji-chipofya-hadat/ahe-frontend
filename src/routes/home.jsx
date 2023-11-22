@@ -54,7 +54,7 @@ export default function Home() {
 			</div>
 			</div>
 		</div>
-		<div className="flex flex-col py-2 space-y-4 md:flex-row md:space-y-0 md:space-x-3">
+		<div className="flex flex-col py-2 space-y-4">
 			<div className="min-h-[200px]" id="portfolio" ref={portfolio}>
 			<HorizontalGallery/>
 		</div>
